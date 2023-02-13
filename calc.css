@@ -1,0 +1,34 @@
+.container{
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid greenyellow;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.result{
+    width: 100%;
+    height: 74px;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+
+
+}
+.box{
+    height: 74px;
+    flex: 1;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.break{
+    width: 100%;
+    height: 0;
+}
